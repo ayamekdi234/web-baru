@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1em 0;
+    color: azure;
+}
+
+#header-contact {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-block: 10px;
+    padding-inline: 30px;
+}
+
+#header-contact div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#header-logo {
+    width: 10px;
+    height: 10px;
+}
+
+#header-title {
+    width: 350px;
+}
+
+#header-contact a {
+    text-decoration: none;
+    color: rgb(255, 245, 245);
+}
+
+.big-h1 {
+    font-size: 6rem;
+    text-align: center;
+    color:black
+}
+
+.big-h2 {
+    font-size: 3rem;
+    text-align: center;
+    color:black
+}
+
+#card-contact {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    /* margin-top: 50px; */
+    
+    background: url(../image/blur.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
